@@ -563,7 +563,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 footer {
-  /* height: 30vh; */
+  padding: 3rem;
   background-color: rgb(27, 27, 27);
   display: flex;
   justify-content: center;
