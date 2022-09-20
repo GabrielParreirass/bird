@@ -361,8 +361,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  color: #fde411;
-  width: 50%;
+  width: 75%;
   padding: 2rem;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -371,14 +370,14 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(128, 128, 128, 0.61);
   border-radius: 10px;
   box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.082);
-}
-
+  }
 .img-item {
-  width: 50%;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .text-item {
@@ -386,9 +385,11 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  width: 50%;
+  width: 100%;
   margin: auto;
   color: white;
+  font-size: .9rem;
+
 }
 
 .text-item h3 {
@@ -865,12 +866,13 @@ footer img{
   }
 
   .text-item {
-    width: 50%;
+    width: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    margin: unset;
   }
 
   .sec5 {
